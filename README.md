@@ -1,5 +1,7 @@
 # Naila Ayub Khan — Portfolio Website
 
+🔗 **Live site:** [nailaayubkhan-portfolio.netlify.app](https://nailaayubkhan-portfolio.netlify.app)
+
 A personal **portfolio website** for Naila Ayub Khan, built as a static site
 with HTML, CSS, and JavaScript on top of the Bootstrap framework. It includes
 an about section, a filterable portfolio gallery, testimonials, and a contact
@@ -39,14 +41,3 @@ python -m http.server 8000
 
 > The contact form (`forms/contact.php`) requires a PHP-capable server to send
 > email; the rest of the site is fully static.
-
-## Deploying with GitHub Pages
-
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Set **Source** to *Deploy from a branch*, choose the `main` branch and
-   `/ (root)` folder, and save.
-4. The site will be published at `https://<username>.github.io/<repo-name>/`.
-
-   (Note: GitHub Pages serves static files only — the PHP contact form won't
-   run there. Use a PHP host if you need the form to send email.)
